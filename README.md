@@ -1,10 +1,10 @@
-# 🔍 Interactive Real-Time Object Detection Suite
+# Interactive Real-Time Object Detection Suite
 
 An interactive, real-time object detection suite powered by **YOLOv8** and **OpenCV**. This system allows users to dynamically target and detect objects across static images, video files, and live webcam feeds using custom query-based filtering.
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
 This project utilizes the state-of-the-art YOLOv8 model trained on the COCO dataset to identify up to **80 distinct object categories** (including vehicles, pedestrians, electronics, and household items).
 
@@ -21,7 +21,7 @@ This project utilizes the state-of-the-art YOLOv8 model trained on the COCO data
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+## Tech Stack & Dependencies
 
 * **YOLOv8** (Ultralytics) — Deep learning model architecture for object detection.
 * **OpenCV** — Real-time computer vision processing, video I/O, and image annotation.
@@ -29,7 +29,7 @@ This project utilizes the state-of-the-art YOLOv8 model trained on the COCO data
 
 ---
 
-## 📦 Setup & Installation
+## Setup & Installation
 
 ### 1. Install Dependencies
 Ensure you have **Python 3.8+** installed, then install the required libraries:
@@ -43,7 +43,7 @@ On the initial run, the application will **automatically download** the required
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 ### Dynamic Target Input
 When running any of the scripts, the terminal will prompt you to enter target objects:
@@ -85,7 +85,7 @@ python webcam.py
 
 ---
 
-## ⚡ Performance Optimization
+## Performance Optimization
 
 Benchmark results on a CUDA-enabled GPU:
 
@@ -100,7 +100,7 @@ Benchmark results on a CUDA-enabled GPU:
 
 ---
 
-## 📂 Project Directory Structure
+## Project Directory Structure
 
 ```
 CV Terminal/
@@ -113,7 +113,7 @@ CV Terminal/
 
 ---
 
-## 🎨 Supported COCO Object Classes
+## Supported COCO Object Classes
 
 The underlying model supports **80 object categories**, classified into:
 
